@@ -1,0 +1,68 @@
+@font-face{
+  src:url("../fonts/playfair-display/playfairdisplay-regular.otf");
+  font-family:playfairdisplay-regular ;
+}
+@font-face{
+  src:url("../fonts/ubuntu/ubuntu-l.ttf");
+  font-family:ubuntu-l;
+}
+
+body{
+font-family:playfairdisplay-regular;
+font-size:16px;
+font-weight:400px;
+color:#626262;
+margin:0;
+}
+header{
+padding:40px 0;
+}
+.container{
+width:90%;
+overflow:hidden;
+/*border:1px solid red;*/
+margin:0 auto;
+}
+.logo{
+width:15%;
+float:left;
+/*border:1px solid green;*/
+}
+.logo img{
+  width:100%;
+  margin-top:8px;
+
+}
+.menu{
+width:65%;
+float:right;
+/*border:1px solid green;*/
+overflow:hidden;
+}
+.menu ul{
+list-style:none;
+overflow:hidden;
+float:right;
+}
+.menu ul li{
+  float:left;
+  
+}
+.menu ul li a{
+  display:inline-block;
+  text-decoration:none;
+  color:#626262;
+  text-transform:uppercase;
+  margin:0 55px;
+  border-bottom:1px solid transparent;
+  transition:.3s linear;
+
+ }
+.menu ul li:last-child a{
+  margin-right:0;
+  
+}
+.menu ul li a:hover{
+ border-bottom:1px solid #626262;
+  
+}
